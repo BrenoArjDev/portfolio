@@ -1,4 +1,3 @@
-
 name: Deploy to GitHub Pages
 
 on:
@@ -31,6 +30,8 @@ jobs:
       run: |
         echo "Contents of dist directory:"
         ls -la dist/ || echo "dist directory not found"
+        echo "Contents of assets directory:"
+        ls -la dist/assets/ || echo "assets directory not found"
         
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
