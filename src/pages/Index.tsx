@@ -32,7 +32,7 @@ const Index = () => {
   };
 
   const stacks = [
-    'React', 'JavaScript', 'TypeScript', 'Next.js', 'Node.js', 'C#',
+    'React', 'React Native', 'JavaScript', 'TypeScript', 'Next.js', 'Node.js', 'C#',
     'ASP.NET', 'MongoDB', 'AWS', 'Git', 'SQL'
   ];
 
