@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Moon, Sun, Github, Linkedin, Mail, ExternalLink } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
@@ -33,8 +32,8 @@ const Index = () => {
   };
 
   const stacks = [
-    'JavaScript', 'TypeScript', 'React', 'Node.js', 'Python', 'Java',
-    'PostgreSQL', 'MongoDB', 'Docker', 'AWS', 'Git', 'Next.js'
+    'React', 'JavaScript', 'TypeScript', 'Next.js', 'Node.js', 'C#',
+    'ASP.NET', 'MongoDB', 'AWS', 'Git', 'SQL'
   ];
 
   const projects = [
