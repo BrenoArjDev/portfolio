@@ -50,7 +50,7 @@ const Index = () => {
     const pdfUrl =
       language === "pt"
         ? "/assets/Breno_Araujo_de_Andrade_PT.pdf"
-        : "/assets/Breno_Araujo_de_Andrade_Resume.pdf";
+        : "/assets/Breno_Araujo_de_Andrade_EN.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download =
